@@ -1,0 +1,146 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light' sans-serif;
+ }
+
+ .navbar {
+    padding: 0 0 4.5rem;
+ }
+.navbar-brand {
+    size: 40rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/**Title Image**/
+
+.img {
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+}
+
+/**Features Section**/
+
+#features{
+    padding: 10% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.middle-text {
+    color: #8f8f8f;
+    padding: 3%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 1rem;
+}
+
+.middle-icon {
+    color: #ef8172;
+}
+
+.middle-icon:hover {
+    color: #ff4c68;
+}
+
+/**Testimonials**/
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/**Press section**/
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/**Pricing**/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+    
+    #title {
+        text-align: center;
+    }
+    
+    .img {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
